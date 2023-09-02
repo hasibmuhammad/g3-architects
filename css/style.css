@@ -85,6 +85,21 @@ nav ul li a {
   font-weight: 600;
 }
 
+.btn-large {
+  padding: 46px 42px;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.small {
+  display: block;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+
 .banner {
   max-width: 70%;
   margin: 0 auto;
@@ -155,6 +170,7 @@ main {
   display: flex;
   justify-content: space-between;
   margin-top: 100px;
+  gap: 2rem;
 }
 .feature-left {
   position: relative;
@@ -198,6 +214,16 @@ main {
   line-height: 26px;
   margin-top: 10px;
 }
+
+.feature-right {
+  position: relative;
+}
+.experience-btn button {
+  position: absolute;
+  bottom: -1rem;
+  left: -3rem;
+}
+
 .feature-right img {
   max-width: 500px;
   height: 95%;
