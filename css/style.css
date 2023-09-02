@@ -271,6 +271,9 @@ footer p {
     flex-direction: column;
     gap: 2rem;
   }
+  footer {
+    max-width: 80%;
+  }
 }
 
 @media screen and (min-width: 577px) and (max-width: 990px) {
@@ -298,5 +301,8 @@ footer p {
   .sponsors {
     justify-content: center;
     gap: 2rem;
+  }
+  footer {
+    max-width: 80%;
   }
 }
