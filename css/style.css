@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --dark-1: #131313;
+  --dark-2: #424242;
+  --dark-3: #727272;
+  --orange: #ff900e;
+  --header-bg: rgba(255, 144, 14, 0.1);
+  --footer-bg: #fff4e7;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
