@@ -32,7 +32,7 @@ nav {
 nav h2 {
   color: var(--dark-1);
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 nav ul li {
@@ -148,6 +148,63 @@ main {
   margin-top: 2rem;
 }
 
+/* Feature Section */
+.feature-section {
+  max-width: 1040px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.feature-left {
+  position: relative;
+}
+.feature-left .line {
+  position: absolute;
+
+  background-color: var(--orange);
+  width: 5px;
+  height: 106px;
+  top: 0;
+  left: -1rem;
+}
+.feature-left h2 {
+  color: var(--dark-1);
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.feature-left > p {
+  margin-top: 1.5rem;
+  color: var(--dark-3);
+  font-weight: 400;
+  line-height: 26px;
+  max-width: 85%;
+}
+.features {
+  margin-top: 30px;
+}
+.feature {
+  max-width: 80%;
+  padding: 30px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  margin-bottom: 1rem;
+}
+.feature p {
+  color: var(--dark-3);
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 10px;
+}
+.feature-right img {
+  max-width: 500px;
+  height: 95%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
 /* Fact Section */
 .fact-section {
   max-width: 1040px;
@@ -233,6 +290,7 @@ footer p {
   font-size: 20px;
   font-weight: 400;
 }
+
 /* Responsive Css - Media Query */
 @media screen and (max-width: 576px) {
   nav {
@@ -257,6 +315,17 @@ footer p {
     max-width: 80%;
     margin: 0 auto;
   }
+
+  .feature-section {
+    max-width: 80%;
+    margin: 100px auto;
+    flex-direction: column-reverse;
+  }
+
+  .feature-right img {
+    width: 100%;
+  }
+
   .fact-section {
     max-width: 70%;
     margin: 2rem auto;
@@ -289,6 +358,15 @@ footer p {
   }
   .team-feature {
     max-width: 70%;
+  }
+  .feature-section {
+    max-width: 80%;
+    margin: 100px auto;
+    flex-direction: column-reverse;
+  }
+
+  .feature-right img {
+    width: 100%;
   }
   .fact-section {
     max-width: 70%;
